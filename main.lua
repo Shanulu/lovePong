@@ -3,10 +3,13 @@ love.graphics.setBackgroundColor(0, 0, 0)
  
 padWidth = 50
 padHeight = 10
+
 topX = love.graphics:getWidth()/2 - padWidth/2
 topY = 10
+
 botX = love.graphics:getWidth()/2 - padWidth/2
 botY = love.graphics:getHeight()-20
+
 ballRad = 10
 ballX = love.graphics:getWidth()/2
 ballY = love.graphics:getHeight()/2
